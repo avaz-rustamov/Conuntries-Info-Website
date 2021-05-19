@@ -1,0 +1,91 @@
+@font-face {
+  font-family: "Nunito Sans";
+  src: url("../fonts/Nunito-ExtraBold.woff2") format("woff2"),
+    url("../fonts/Nunito-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nunito Sans";
+  src: url("../fonts/NunitoSans-Light.woff2") format("woff2"),
+    url("../fonts/NunitoSans-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nunito Sans";
+  src: url("../fonts/NunitoSans-Regular.woff2") format("woff2"),
+    url("../fonts/NunitoSans-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+
+body {
+  font-family: "Nunito Sans", "Arial", sans-serif;
+  padding-bottom: 50px;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.container {
+  max-width: 1480px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.site_header_top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 23px 80px;
+  background-color: #fff;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.0562443);
+}
+
+.site_header_heading {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 33px;
+  color: #111517;
+}
+
+.site_header_text {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #111517;
+
+}
+
+.site_header_text::before {
+  background-image: url(../img/header-moon-img.svg);
+  content: "";
+  display: block;
+  width: 15px;
+  height: 13px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: -26px;
+  margin-bottom: -16px;
+}
