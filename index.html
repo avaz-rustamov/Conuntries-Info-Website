@@ -4,9 +4,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/styles.css">
-  <!-- <link rel="stylesheet" href="css/styles.min.css"> -->
+  <!-- <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/styles.css"> -->
+  <link rel="stylesheet" href="css/styles.min.css">
   <title></title>
 </head>
 <body>
@@ -22,10 +22,125 @@
   </header>
 
 <!-- MAIN -->
-  <main class="main">
-    <div class="contanier">
-      <section class="site_grid">
+  <main class="site_main">
+    <div class="container">
+      <section class="site_search">
+        <!-- SEARCH -->
+        <div class="search">
+          <img src="img/shape.svg" alt="Search img" height="18px" width="18px">
+          <p class="site-search-text">Search for a country…</p>
+        </div>
 
+        <!-- REGION -->
+        <form class="country-form" action="https://echo.htmlacademy.ru">
+          <select class="country" name="country…" id="district-select" aria-label="country…">
+            <option value="" selected disabled>Filter by Region</option>
+            <option value="Africa">Africa</option>
+            <option value="America">America</option>
+            <option value="Asia">Asia</option>
+            <option value="Asia">Europe</option>
+            <option value="Asia">Oceania</option>
+          </select>
+        </form>
+      </section>
+
+
+      <!-- GRID SECTION -->
+      <section class="site_grid">
+        <ul class="grid-item">
+          <li class="grid">
+            <img class="grid-img" src="img/Germany.svg" alt="Flag of Germany" width="267" height="160px">
+            <div class="grid_content">
+              <h2 class="grid_heading">
+                Germany
+              </h2>
+              <p><b>Population:</b> 81,770,900</p>
+              <p><b>Region:</b> Europe</p>
+              <p><b>Capital:</b> Berlin</p>
+            </div>
+          </li>
+          <li class="grid">
+            <img class="grid-img" src="img/grid-usa-img.svg" alt="Flag of Germany" width="267" height="160px">
+            <div class="grid_content">
+              <h2 class="grid_heading">
+                United States of America
+              </h2>
+              <p><b>Population:</b> 323,947,000</p>
+              <p><b>Region:</b> Americas</p>
+              <p><b>Capital:</b> Washington, D.C.</p>
+            </div>
+          </li>
+          <li class="grid">
+            <img class="grid-img" src="img/grid-brazil-img.svg" alt="Flag of Germany" width="267" height="160px">
+            <div class="grid_content">
+              <h2 class="grid_heading">
+                Brazil
+              </h2>
+              <p><b>Population:</b> 206,135,893</p>
+              <p><b>Region:</b> Americas</p>
+              <p><b>Capital:</b> Brasília</p>
+            </div>
+          </li>
+          <li class="grid grid_forth">
+            <img class="grid-img" src="img/grid-iceland-img.svg" alt="Flag of Germany" width="267" height="160px">
+            <div class="grid_content">
+              <h2 class="grid_heading">
+                Iceland
+              </h2>
+              <p><b>Population:</b> 334,300</p>
+              <p><b>Region:</b> Europe</p>
+              <p><b>Capital:</b> Reykjavík</p>
+            </div>
+          </li>
+
+
+        </ul>
+        <ul class="grid-item">
+          <li class="grid">
+            <img class="grid-img" src="img/grid-afghanistan-img.svg" alt="Flag of Germany" width="267" height="160px">
+            <div class="grid_content">
+              <h2 class="grid_heading">
+                Afghanistan
+              </h2>
+              <p><b>Population:</b> 27,657,145</p>
+              <p><b>Region:</b> Asia</p>
+              <p><b>Capital:</b> Kabul</p>
+            </div>
+          </li>
+          <li class="grid">
+            <img class="grid-img" src="img/grid-aland-islands-img.svg" alt="Flag of Germany" width="267" height="160px">
+            <div class="grid_content">
+              <h2 class="grid_heading">
+                Åland Islands
+              </h2>
+              <p><b>Population:</b> 28,875</p>
+              <p><b>Region:</b> Europe</p>
+              <p><b>Capital:</b> Mariehamn</p>
+            </div>
+          </li>
+          <li class="grid">
+            <img class="grid-img" src="img/grid-albania-img.svg" alt="Flag of Germany" width="267" height="160px">
+            <div class="grid_content">
+              <h2 class="grid_heading">
+                Albania
+              </h2>
+              <p><b>Population:</b> 2,886,026</p>
+              <p><b>Region:</b> Europe</p>
+              <p><b>Capital:</b> Tirana</p>
+            </div>
+          </li>
+          <li class="grid  grid_forth">
+            <img class="grid-img" src="img/grid-algerilya-img.svg" alt="Flag of Germany" width="267" height="160px">
+            <div class="grid_content">
+              <h2 class="grid_heading">
+                Algeria
+              </h2>
+              <p><b>Population:</b> 40,400,000</p>
+              <p><b>Region:</b> Africa</p>
+              <p><b>Capital:</b> Algiers</p>
+            </div>
+          </li>
+        </ul>
       </section>
     </div>
   </main>
